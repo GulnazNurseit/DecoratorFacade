@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class NetworkTechnologiesCourse {
+public class NetworkTechnologiesCourse implements Course {
+    @Override
+    public void deliverContent() {
+    }
 }
