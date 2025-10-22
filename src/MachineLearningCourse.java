@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class MachineLearningCourse {
+public class MachineLearningCourse implements Course {
+    @Override
+    public void deliverContent() {
+    }
 }
