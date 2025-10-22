@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class DatabaseManagementCourse {
+public class DatabaseManagementCourse implements Course {
+    @Override
+    public void deliverContent() {
+    }
 }
